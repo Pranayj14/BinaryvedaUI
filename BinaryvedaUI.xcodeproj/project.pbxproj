@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2D22BD264027BE007487DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D22BC264027BE007487DD /* AppDelegate.swift */; };
+		CE2D22C1264027BE007487DD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D22C0264027BE007487DD /* ProfileViewController.swift */; };
+		CE2D22C4264027BE007487DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D22C2264027BE007487DD /* Main.storyboard */; };
+		CE2D22C6264027D3007487DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2D22C5264027D3007487DD /* Assets.xcassets */; };
+		CE2D22C9264027D3007487DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D22C7264027D3007487DD /* LaunchScreen.storyboard */; };
+		CE7DC73C2643272F0031329E /* BarlowCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7292643272F0031329E /* BarlowCondensed-BoldItalic.ttf */; };
+		CE7DC73D2643272F0031329E /* BarlowCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC72A2643272F0031329E /* BarlowCondensed-ThinItalic.ttf */; };
+		CE7DC73E2643272F0031329E /* BarlowCondensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC72B2643272F0031329E /* BarlowCondensed-BlackItalic.ttf */; };
+		CE7DC73F2643272F0031329E /* BarlowCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC72C2643272F0031329E /* BarlowCondensed-ExtraLight.ttf */; };
+		CE7DC7402643272F0031329E /* BarlowCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC72D2643272F0031329E /* BarlowCondensed-Thin.ttf */; };
+		CE7DC7412643272F0031329E /* BarlowCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC72E2643272F0031329E /* BarlowCondensed-Bold.ttf */; };
+		CE7DC7422643272F0031329E /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC72F2643272F0031329E /* BarlowCondensed-Light.ttf */; };
+		CE7DC7432643272F0031329E /* BarlowCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7302643272F0031329E /* BarlowCondensed-ExtraLightItalic.ttf */; };
+		CE7DC7442643272F0031329E /* BarlowCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7312643272F0031329E /* BarlowCondensed-Medium.ttf */; };
+		CE7DC7452643272F0031329E /* BarlowCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7322643272F0031329E /* BarlowCondensed-SemiBoldItalic.ttf */; };
+		CE7DC7462643272F0031329E /* BarlowCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7332643272F0031329E /* BarlowCondensed-MediumItalic.ttf */; };
+		CE7DC7472643272F0031329E /* BarlowCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7342643272F0031329E /* BarlowCondensed-LightItalic.ttf */; };
+		CE7DC7482643272F0031329E /* BarlowCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7352643272F0031329E /* BarlowCondensed-Italic.ttf */; };
+		CE7DC7492643272F0031329E /* BarlowCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7362643272F0031329E /* BarlowCondensed-Black.ttf */; };
+		CE7DC74A2643272F0031329E /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7372643272F0031329E /* OFL.txt */; };
+		CE7DC74B2643272F0031329E /* BarlowCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7382643272F0031329E /* BarlowCondensed-Regular.ttf */; };
+		CE7DC74C2643272F0031329E /* BarlowCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7392643272F0031329E /* BarlowCondensed-SemiBold.ttf */; };
+		CE7DC74D2643272F0031329E /* BarlowCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC73A2643272F0031329E /* BarlowCondensed-ExtraBoldItalic.ttf */; };
+		CE7DC74E2643272F0031329E /* BarlowCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC73B2643272F0031329E /* BarlowCondensed-ExtraBold.ttf */; };
+		CE7DC7642643450A0031329E /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7512643450A0031329E /* Barlow-Light.ttf */; };
+		CE7DC7652643450A0031329E /* Barlow-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7522643450A0031329E /* Barlow-SemiBoldItalic.ttf */; };
+		CE7DC7662643450A0031329E /* Barlow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7532643450A0031329E /* Barlow-BoldItalic.ttf */; };
+		CE7DC7672643450A0031329E /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7542643450A0031329E /* Barlow-ExtraLight.ttf */; };
+		CE7DC7682643450A0031329E /* Barlow-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7552643450A0031329E /* Barlow-ThinItalic.ttf */; };
+		CE7DC7692643450A0031329E /* Barlow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7562643450A0031329E /* Barlow-MediumItalic.ttf */; };
+		CE7DC76A2643450A0031329E /* Barlow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7572643450A0031329E /* Barlow-Italic.ttf */; };
+		CE7DC76B2643450A0031329E /* Barlow-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7582643450A0031329E /* Barlow-ExtraLightItalic.ttf */; };
+		CE7DC76C2643450A0031329E /* Barlow-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7592643450A0031329E /* Barlow-ExtraBoldItalic.ttf */; };
+		CE7DC76D2643450A0031329E /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC75A2643450A0031329E /* Barlow-Thin.ttf */; };
+		CE7DC76E2643450A0031329E /* Barlow-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC75B2643450A0031329E /* Barlow-ExtraBold.ttf */; };
+		CE7DC76F2643450A0031329E /* Barlow-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC75C2643450A0031329E /* Barlow-LightItalic.ttf */; };
+		CE7DC7702643450A0031329E /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC75D2643450A0031329E /* Barlow-Bold.ttf */; };
+		CE7DC7722643450A0031329E /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC75F2643450A0031329E /* Barlow-Medium.ttf */; };
+		CE7DC7732643450A0031329E /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7602643450A0031329E /* Barlow-Regular.ttf */; };
+		CE7DC7742643450A0031329E /* Barlow-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7612643450A0031329E /* Barlow-BlackItalic.ttf */; };
+		CE7DC7752643450A0031329E /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7622643450A0031329E /* Barlow-SemiBold.ttf */; };
+		CE7DC7762643450A0031329E /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE7DC7632643450A0031329E /* Barlow-Black.ttf */; };
+		CE7EDE36264509980067CC61 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EDE35264509980067CC61 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE2D22B9264027BE007487DD /* BinaryvedaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinaryvedaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2D22BC264027BE007487DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2D22C0264027BE007487DD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CE2D22C3264027BE007487DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2D22C5264027D3007487DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2D22C8264027D3007487DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2D22CA264027D3007487DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7DC7292643272F0031329E /* BarlowCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC72A2643272F0031329E /* BarlowCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC72B2643272F0031329E /* BarlowCondensed-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC72C2643272F0031329E /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CE7DC72D2643272F0031329E /* BarlowCondensed-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Thin.ttf"; sourceTree = "<group>"; };
+		CE7DC72E2643272F0031329E /* BarlowCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		CE7DC72F2643272F0031329E /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Light.ttf"; sourceTree = "<group>"; };
+		CE7DC7302643272F0031329E /* BarlowCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7312643272F0031329E /* BarlowCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		CE7DC7322643272F0031329E /* BarlowCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7332643272F0031329E /* BarlowCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7342643272F0031329E /* BarlowCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7352643272F0031329E /* BarlowCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		CE7DC7362643272F0031329E /* BarlowCondensed-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Black.ttf"; sourceTree = "<group>"; };
+		CE7DC7372643272F0031329E /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		CE7DC7382643272F0031329E /* BarlowCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		CE7DC7392643272F0031329E /* BarlowCondensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE7DC73A2643272F0031329E /* BarlowCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC73B2643272F0031329E /* BarlowCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CE7DC7512643450A0031329E /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
+		CE7DC7522643450A0031329E /* Barlow-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7532643450A0031329E /* Barlow-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7542643450A0031329E /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CE7DC7552643450A0031329E /* Barlow-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7562643450A0031329E /* Barlow-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7572643450A0031329E /* Barlow-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Italic.ttf"; sourceTree = "<group>"; };
+		CE7DC7582643450A0031329E /* Barlow-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7592643450A0031329E /* Barlow-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC75A2643450A0031329E /* Barlow-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Thin.ttf"; sourceTree = "<group>"; };
+		CE7DC75B2643450A0031329E /* Barlow-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CE7DC75C2643450A0031329E /* Barlow-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC75D2643450A0031329E /* Barlow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Bold.ttf"; sourceTree = "<group>"; };
+		CE7DC75F2643450A0031329E /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		CE7DC7602643450A0031329E /* Barlow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Regular.ttf"; sourceTree = "<group>"; };
+		CE7DC7612643450A0031329E /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CE7DC7622643450A0031329E /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE7DC7632643450A0031329E /* Barlow-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Black.ttf"; sourceTree = "<group>"; };
+		CE7EDE35264509980067CC61 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2D22B6264027BE007487DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2D22B0264027BE007487DD = {
+			isa = PBXGroup;
+			children = (
+				CE2D22BB264027BE007487DD /* BinaryvedaUI */,
+				CE2D22BA264027BE007487DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2D22BA264027BE007487DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D22B9264027BE007487DD /* BinaryvedaUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2D22BB264027BE007487DD /* BinaryvedaUI */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EDE35264509980067CC61 /* DetailViewController.swift */,
+				CE7DC750264345090031329E /* Barlow */,
+				CE7DC7282643272F0031329E /* Barlow_Condensed */,
+				CE2D22BC264027BE007487DD /* AppDelegate.swift */,
+				CE2D22C0264027BE007487DD /* ProfileViewController.swift */,
+				CE2D22C2264027BE007487DD /* Main.storyboard */,
+				CE2D22C5264027D3007487DD /* Assets.xcassets */,
+				CE2D22C7264027D3007487DD /* LaunchScreen.storyboard */,
+				CE2D22CA264027D3007487DD /* Info.plist */,
+			);
+			path = BinaryvedaUI;
+			sourceTree = "<group>";
+		};
+		CE7DC7282643272F0031329E /* Barlow_Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				CE7DC7292643272F0031329E /* BarlowCondensed-BoldItalic.ttf */,
+				CE7DC72A2643272F0031329E /* BarlowCondensed-ThinItalic.ttf */,
+				CE7DC72B2643272F0031329E /* BarlowCondensed-BlackItalic.ttf */,
+				CE7DC72C2643272F0031329E /* BarlowCondensed-ExtraLight.ttf */,
+				CE7DC72D2643272F0031329E /* BarlowCondensed-Thin.ttf */,
+				CE7DC72E2643272F0031329E /* BarlowCondensed-Bold.ttf */,
+				CE7DC72F2643272F0031329E /* BarlowCondensed-Light.ttf */,
+				CE7DC7302643272F0031329E /* BarlowCondensed-ExtraLightItalic.ttf */,
+				CE7DC7312643272F0031329E /* BarlowCondensed-Medium.ttf */,
+				CE7DC7322643272F0031329E /* BarlowCondensed-SemiBoldItalic.ttf */,
+				CE7DC7332643272F0031329E /* BarlowCondensed-MediumItalic.ttf */,
+				CE7DC7342643272F0031329E /* BarlowCondensed-LightItalic.ttf */,
+				CE7DC7352643272F0031329E /* BarlowCondensed-Italic.ttf */,
+				CE7DC7362643272F0031329E /* BarlowCondensed-Black.ttf */,
+				CE7DC7372643272F0031329E /* OFL.txt */,
+				CE7DC7382643272F0031329E /* BarlowCondensed-Regular.ttf */,
+				CE7DC7392643272F0031329E /* BarlowCondensed-SemiBold.ttf */,
+				CE7DC73A2643272F0031329E /* BarlowCondensed-ExtraBoldItalic.ttf */,
+				CE7DC73B2643272F0031329E /* BarlowCondensed-ExtraBold.ttf */,
+			);
+			path = Barlow_Condensed;
+			sourceTree = "<group>";
+		};
+		CE7DC750264345090031329E /* Barlow */ = {
+			isa = PBXGroup;
+			children = (
+				CE7DC7512643450A0031329E /* Barlow-Light.ttf */,
+				CE7DC7522643450A0031329E /* Barlow-SemiBoldItalic.ttf */,
+				CE7DC7532643450A0031329E /* Barlow-BoldItalic.ttf */,
+				CE7DC7542643450A0031329E /* Barlow-ExtraLight.ttf */,
+				CE7DC7552643450A0031329E /* Barlow-ThinItalic.ttf */,
+				CE7DC7562643450A0031329E /* Barlow-MediumItalic.ttf */,
+				CE7DC7572643450A0031329E /* Barlow-Italic.ttf */,
+				CE7DC7582643450A0031329E /* Barlow-ExtraLightItalic.ttf */,
+				CE7DC7592643450A0031329E /* Barlow-ExtraBoldItalic.ttf */,
+				CE7DC75A2643450A0031329E /* Barlow-Thin.ttf */,
+				CE7DC75B2643450A0031329E /* Barlow-ExtraBold.ttf */,
+				CE7DC75C2643450A0031329E /* Barlow-LightItalic.ttf */,
+				CE7DC75D2643450A0031329E /* Barlow-Bold.ttf */,
+				CE7DC75F2643450A0031329E /* Barlow-Medium.ttf */,
+				CE7DC7602643450A0031329E /* Barlow-Regular.ttf */,
+				CE7DC7612643450A0031329E /* Barlow-BlackItalic.ttf */,
+				CE7DC7622643450A0031329E /* Barlow-SemiBold.ttf */,
+				CE7DC7632643450A0031329E /* Barlow-Black.ttf */,
+			);
+			path = Barlow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2D22B8264027BE007487DD /* BinaryvedaUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2D22CD264027D3007487DD /* Build configuration list for PBXNativeTarget "BinaryvedaUI" */;
+			buildPhases = (
+				CE2D22B5264027BE007487DD /* Sources */,
+				CE2D22B6264027BE007487DD /* Frameworks */,
+				CE2D22B7264027BE007487DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinaryvedaUI;
+			productName = BinaryvedaUI;
+			productReference = CE2D22B9264027BE007487DD /* BinaryvedaUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2D22B1264027BE007487DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CE2D22B8264027BE007487DD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CE2D22B4264027BE007487DD /* Build configuration list for PBXProject "BinaryvedaUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2D22B0264027BE007487DD;
+			productRefGroup = CE2D22BA264027BE007487DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2D22B8264027BE007487DD /* BinaryvedaUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2D22B7264027BE007487DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7DC76E2643450A0031329E /* Barlow-ExtraBold.ttf in Resources */,
+				CE7DC76C2643450A0031329E /* Barlow-ExtraBoldItalic.ttf in Resources */,
+				CE7DC7732643450A0031329E /* Barlow-Regular.ttf in Resources */,
+				CE7DC7462643272F0031329E /* BarlowCondensed-MediumItalic.ttf in Resources */,
+				CE7DC74E2643272F0031329E /* BarlowCondensed-ExtraBold.ttf in Resources */,
+				CE7DC74B2643272F0031329E /* BarlowCondensed-Regular.ttf in Resources */,
+				CE7DC73C2643272F0031329E /* BarlowCondensed-BoldItalic.ttf in Resources */,
+				CE7DC7492643272F0031329E /* BarlowCondensed-Black.ttf in Resources */,
+				CE2D22C9264027D3007487DD /* LaunchScreen.storyboard in Resources */,
+				CE7DC7742643450A0031329E /* Barlow-BlackItalic.ttf in Resources */,
+				CE7DC7752643450A0031329E /* Barlow-SemiBold.ttf in Resources */,
+				CE7DC7482643272F0031329E /* BarlowCondensed-Italic.ttf in Resources */,
+				CE7DC7662643450A0031329E /* Barlow-BoldItalic.ttf in Resources */,
+				CE7DC7682643450A0031329E /* Barlow-ThinItalic.ttf in Resources */,
+				CE7DC76B2643450A0031329E /* Barlow-ExtraLightItalic.ttf in Resources */,
+				CE2D22C6264027D3007487DD /* Assets.xcassets in Resources */,
+				CE7DC73E2643272F0031329E /* BarlowCondensed-BlackItalic.ttf in Resources */,
+				CE7DC76A2643450A0031329E /* Barlow-Italic.ttf in Resources */,
+				CE7DC7432643272F0031329E /* BarlowCondensed-ExtraLightItalic.ttf in Resources */,
+				CE7DC7422643272F0031329E /* BarlowCondensed-Light.ttf in Resources */,
+				CE7DC7722643450A0031329E /* Barlow-Medium.ttf in Resources */,
+				CE7DC7442643272F0031329E /* BarlowCondensed-Medium.ttf in Resources */,
+				CE7DC7672643450A0031329E /* Barlow-ExtraLight.ttf in Resources */,
+				CE7DC76D2643450A0031329E /* Barlow-Thin.ttf in Resources */,
+				CE7DC73D2643272F0031329E /* BarlowCondensed-ThinItalic.ttf in Resources */,
+				CE7DC7702643450A0031329E /* Barlow-Bold.ttf in Resources */,
+				CE7DC7452643272F0031329E /* BarlowCondensed-SemiBoldItalic.ttf in Resources */,
+				CE7DC74A2643272F0031329E /* OFL.txt in Resources */,
+				CE7DC7692643450A0031329E /* Barlow-MediumItalic.ttf in Resources */,
+				CE7DC74C2643272F0031329E /* BarlowCondensed-SemiBold.ttf in Resources */,
+				CE7DC73F2643272F0031329E /* BarlowCondensed-ExtraLight.ttf in Resources */,
+				CE7DC7472643272F0031329E /* BarlowCondensed-LightItalic.ttf in Resources */,
+				CE7DC7762643450A0031329E /* Barlow-Black.ttf in Resources */,
+				CE7DC74D2643272F0031329E /* BarlowCondensed-ExtraBoldItalic.ttf in Resources */,
+				CE7DC7402643272F0031329E /* BarlowCondensed-Thin.ttf in Resources */,
+				CE7DC7412643272F0031329E /* BarlowCondensed-Bold.ttf in Resources */,
+				CE2D22C4264027BE007487DD /* Main.storyboard in Resources */,
+				CE7DC7652643450A0031329E /* Barlow-SemiBoldItalic.ttf in Resources */,
+				CE7DC76F2643450A0031329E /* Barlow-LightItalic.ttf in Resources */,
+				CE7DC7642643450A0031329E /* Barlow-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2D22B5264027BE007487DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7EDE36264509980067CC61 /* DetailViewController.swift in Sources */,
+				CE2D22C1264027BE007487DD /* ProfileViewController.swift in Sources */,
+				CE2D22BD264027BE007487DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE2D22C2264027BE007487DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2D22C3264027BE007487DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2D22C7264027D3007487DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2D22C8264027D3007487DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2D22CB264027D3007487DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2D22CC264027D3007487DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2D22CE264027D3007487DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BinaryvedaUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pranay-Joshi.BinaryvedaUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2D22CF264027D3007487DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BinaryvedaUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pranay-Joshi.BinaryvedaUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2D22B4264027BE007487DD /* Build configuration list for PBXProject "BinaryvedaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2D22CB264027D3007487DD /* Debug */,
+				CE2D22CC264027D3007487DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2D22CD264027D3007487DD /* Build configuration list for PBXNativeTarget "BinaryvedaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2D22CE264027D3007487DD /* Debug */,
+				CE2D22CF264027D3007487DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2D22B1264027BE007487DD /* Project object */;
+}
